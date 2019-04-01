@@ -1,0 +1,16 @@
+Rapport
+
+Noms et matricule: Alexandre-Sereyroeut Keo:992086   
+                   Ismael Coulibaly:20083932
+
+Adresse vers le site: 
+
+Librairies utilisées:JQuery, Bootstrap, 
+
+Sites web inspiration: 
+
+Description du travail par chaque étudiant:
+
+Difficultés:
+
+Suggestions amélioration du projet:
