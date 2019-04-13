@@ -15,6 +15,6 @@ Sites web inspiration:  - http://preview.themeforest.net/item/food-cook-multipur
 
 Description du travail par chaque étudiant:
 
-Difficultés:
+Difficultés: - Installation de certaines librairies dont pour parallax et Slick
 
 Suggestions amélioration du projet:
