@@ -7,7 +7,9 @@ Adresse vers le site:
 
 Librairies utilisées:JQuery, Bootstrap, 
 
-Sites web inspiration: 
+Sites web inspiration:  - http://preview.themeforest.net/item/food-cook-multipurpose-food-recipe-wp-    theme/full_screen_preview/4915630
+
+                        - http://themes.pixelwars.org/lahanna/demo-01/
 
 Description du travail par chaque étudiant:
 
