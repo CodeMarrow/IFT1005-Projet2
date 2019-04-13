@@ -5,7 +5,7 @@ Noms et matricule: Alexandre-Sereyroeut Keo:992086
 
 Adresse vers le site: 
 
-Librairies utilisées:JQuery, Bootstrap, 
+Librairies utilisées:JQuery, Bootstrap, Animate On Scroll(AOS)
 
 Sites web inspiration:  - http://preview.themeforest.net/item/food-cook-multipurpose-food-recipe-wp-    theme/full_screen_preview/4915630
 
