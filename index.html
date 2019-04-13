@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"
+    />
+
+
     <!-- My CSS -->
     <!-- ================================= -->
     <link rel="stylesheet" href="css/normalize.css" />
@@ -49,6 +53,7 @@
       crossorigin="anonymous"
     ></script>
 
+
     <!-- My Scripts -->
     <script src="./js/scripts.js"></script>
     <script src="./js/_data_.js"></script>
@@ -60,17 +65,16 @@
     <!-- Header -->
     
     <div class = "header">
-  
         <title>Miam Miam</title>
-        
-        </div>
-        
-        <!-- Closing : Header -->
+        <h1>Chez Ma Tante</h1>          <!-- p-e logo au milieu de la photo???-->
+    </div>
+
+    <!-- Closing : Header -->
         
         
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"> <img src="assets/placeholder.png" width="30" height="30" alt=""></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="#"> <img src="assets/placeholder.png" width="30" height="30" alt=""> Ma Tante</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -78,46 +82,103 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Recipe</a>
-                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Recette
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Repas Santé</a>
+                      <a class="dropdown-item" href="#">Recette vite fait</a>
+                      <a class="dropdown-item" href="#">Dessert</a>
+                    </div>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link" href="#">About Us</a>
                   </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
             </div>
+            <hr class="my-4">
           </nav>
 
         
 <!-- Closing : Navigation -->
 
- <!-- Carousel -->
+<!-- Accueil -->
+
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+    <h1 class="display-4">Bienvenue chez distribution de repas tante</h1>
+    <hr>
+    <div class="col-12">
+        <p class="lead"> allo genre quelque chose pour faire un bel accueil</p>
+    
+    </div>
+        </div>
+    
+    </div>
+    <hr class="my-4">
+</div>
+    
+<!-- Closing : Accueil -->
+
+<!-- Article -->
+
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">À Propos</h1>
+        </div>
+        <hr>
+    </div>
+</div>
+
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src='assets/placeholder.png'>
+                <div class="card-body">
+                    <h4 class="card-title">Article 1</h4>
+                    <p class="card-text">Ma premiere experience avec la preparation de nourriture</p>
+                    <a href="#" class="btn btn-outline-secondary">Voir article</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src='assets/placeholder.png'>
+                <div class="card-body">
+                    <h4 class="card-title">Article 2</h4>
+                    <p class="card-text">Faits coquace</p>
+                    <a href="#" class="btn btn-outline-secondary">Voir article</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src='assets/placeholder.png'>
+                <div class="card-body">
+                    <h4 class="card-title">Article 3</h4>
+                    <p class="card-text">oopsie</p>
+                    <a href="#" class="btn btn-outline-secondary">Voir article</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Closing : Article -->
+
+<!-- Carousel -->
  
  <div class="bd-example">
     <div id="slides" class="carousel slide" data-ride="carousel">
@@ -130,7 +191,7 @@
         <div class="carousel-item active">
           <img src="assets/food1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="display-2">Healthy Food</h1>
+            <h1 class="display-2">Repas Santé</h1>
             <h3>Miam jaime les legumes</h3>
             <button type="button" class="btn btn-outline-light btn-lg">Recette</button>
           </div>
@@ -138,16 +199,18 @@
         <div class="carousel-item">
           <img src="assets/food2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="display-2">Another healthy food caption</h1>
-            <p>woww je vais etre en bonne sante</p>
+            <h1 class="display-2">Recette vite fait</h1>
+            <p>au shit jai pas le temps</p>
+            <button type="button" class="btn btn-outline-light btn-lg">Recette</button>
           </div>
         </div>
         <div class="carousel-item">
           <img src="assets/food3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="display-2">okay je sais pu quoi dire</h1>
-            <p>okay, je suis rendu vegetarien</p>
-          </div>
+            <h1 class="display-2">Dessert</h1>
+            <p>La creme de la creme</p>
+            <button type="button" class="btn btn-outline-light btn-lg">Recette</button>  
+        </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -159,48 +222,14 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <hr class="my-4">
   </div>
   
 <!-- Closing : Caroussel -->
 
-
-<!-- Jumbotron -->
-
-<div class="container-fluid">
-    <div class="row jumbotron">
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-            <p class="lead"> Message important peut etre allergie ou ingredients utilise you know what im saying dogggg
-
-            </p>
-        </div>
-    </div>
-</div>
-
-
-<!-- Closing : Jumbotron -->
-
-<!-- Accueil -->
-
-    <div class="container-fluid padding">
-<div class="row welcome text-center">
-    <div class="col-12">
-<h1 class="display-4">BONJOUR</h1>
-<hr>
-<div class="col-12">
-    <p class="lead"> allo gere quelque chose pour faire un bel accueil</p>
-
-</div>
-    </div>
-
-</div>
-
-    </div>
-
-<!-- Closing : Accueil -->
-
-<!-- Recette -->
+<!-- petits faits -->
  
- <div class="container-fluid padding">
+<div class="container-fluid padding">
     <div class="row text-center padding">
         <div class="col-xs-12 col-sm-6 col-md-4">
 <i class="fas fa-utensils"></i>
@@ -222,7 +251,70 @@
  </div>
 
   
-<!-- Closing : recette -->
+<!-- Closing : petits faits -->
+
+<!-- Jumbotron -->
+
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class="lead"> Message important ou/et peut etre allergie ou ingredients utilise you know what im saying dogggg
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Closing : Jumbotron -->
+
+<!-- Jumbotron -->
+
+<div class="container-fluid">
+    <div class="aos-anim">
+            <div class="row">
+                    <div class="ml-auto col-auto">
+                            <div data-aos="fade-right"><img src="http://placehold.it/350x100?text=1"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="mr-auto col-auto">
+                            <div data-aos="fade-left"><img src="http://placehold.it/350x100?text=1"></div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="ml-auto col-auto">
+                                <div data-aos="fade-right"><img src="http://placehold.it/350x100?text=1"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mr-auto col-auto">
+                                <div data-aos="fade-left"><img src="http://placehold.it/350x100?text=1"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="ml-auto col-auto">
+                                    <div data-aos="fade-right"><img src="http://placehold.it/350x100?text=1"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="mr-auto col-auto">
+                                    <div data-aos="fade-left"><img src="http://placehold.it/350x100?text=1"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="ml-auto col-auto">
+                                        <div data-aos="fade-right"><img src="http://placehold.it/350x100?text=1"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mr-auto col-auto">
+                                        <div data-aos="fade-left"><img src="http://placehold.it/350x100?text=1"></div>
+                                </div>
+                            </div>                   
+         </div>
+</div>
+
+<!-- Closing : Jumbotron -->
 
 <!-- Contact -->
 
@@ -305,6 +397,11 @@ Tous les champs sont requis.
 </footer>
 
 <!-- Closing : Footer -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
