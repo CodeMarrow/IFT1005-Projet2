@@ -290,20 +290,21 @@
             <div class="form-row">
               <div class="col-md-4 mb-3">
                 <label for="validationCustom01">Prenom</label>
-                <input type="text" class="form-control" id="validationCustom01" placeholder="Prenom" value="Marc" required>
-                <div class="valid-feedback">
-                  Valide!
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Prenom" placeholder="Votre prenom" required>
+                <div class="invalid-feedback">
+                Veuillez entrer votre prenom!
                 </div>
               </div>
               <div class="col-md-4 mb-3">
                 <label for="validationCustom02">Nom</label>
-                <input type="text" class="form-control" id="validationCustom02" placeholder="Nom" value="Desjardins" required>
-                <div class="valid-feedback">
-                  Valide!
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Nom" placeholder="votre nom" required>
+                <div class="invalid-feedback">
+                Veuillez entrer votre nom!
                 </div>
               </div>
+            </div>
             <div class="form-row">
-              <div class="col-md-6 mb-3">
+              <div class="col-md-3 mb-3">
                 <label for="validationCustom03">Addresse</label>
                 <input type="text" class="form-control" id="validationCustom03" placeholder="Addresse" required>
                 <div class="invalid-feedback">
@@ -326,13 +327,24 @@
               </div>
               <div class="col-md-3 mb-3">
                     <label for="validationCustom06">Telephone</label>
-                    <input type="text" class="form-control" id="validationCustom06" placeholder=""YYYXXXXXXX (YYY = 514 ou 483 ou 450)"" required>
+                    <input type="text" class="form-control" id="validationCustom06" placeholder="YYYXXXXXXX (YYY = 514 ou 483 ou 450)" required>
                     <div class="invalid-feedback">
                     Veuillez entrer un numero de telephone valide.
                     </div>
                   </div>
             </div>
+            <div class="form-row">
+                    <div class="col-md-6 mb-6">
+                            <label for="validationCustom07">Message</label>
+                            <input type="textarea" class="form-control" placeholder="Votre message..." id="validationCustom07" required>
+                            <div class="invalid-feedback">
+                            Veuillez entrer votre message.
+                            </div>
+                          </div>
+            </div>
+            <div class="form-row">
             <button class="btn btn-primary" type="submit">Envoyer</button>
+        </div>
           </form>
           <hr class="my-4">
           </section>
