@@ -14,8 +14,25 @@ var dynamicActions = function(data) {
   $(document).ready(function() {
     updateDocumentTitle();
     updateArticles();
-    // function4()...
+    footerApply();
     // etc.
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('form1');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
   });
 };
 
@@ -48,24 +65,9 @@ var updateDocumentTitle = function() {
 
   };
 
-  $('#form1').validate({ // initialize the plugin
-    rules: {
-        prenom: {
-            required: true,
-            
-        },
-        nom: {
-            required: true,
-        }
-    },
-    Messages: {
-      prenom: "Veuillez entrer votre prénom",
-      nom: "Veuillez entrer votre nom"
-    }
-    submitHandler: function (form) { // for demo
-        alert('valid form submitted'); // for demo
-        return false; // for demo
-    }
-  });
+  var footerApply = function (){
+    	var footer = data.email + "     " + data.lastName + " " + data.firstName;
+  $( "#info" ).append(footer);
+
   
 
