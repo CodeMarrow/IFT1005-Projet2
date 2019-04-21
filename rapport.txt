@@ -3,7 +3,7 @@ Rapport
 Noms et matricule: Alexandre-Sereyroeut Keo:992086   
                    Ismael Coulibaly:20083932
 
-Adresse vers le site: 
+Adresse vers le site: https://www.webdepot.umontreal.ca/Usagers/p0992086/MonDepotPublic/IFT%201005%20-%20projet2
 
 Librairies utilisées:JQuery, Bootstrap, Animate On Scroll(AOS)
 
@@ -13,8 +13,10 @@ Sites web inspiration:  - http://preview.themeforest.net/item/food-cook-multipur
                         
                         - https://www.seriouseats.com/
 
-Description du travail par chaque étudiant:
+Description du travail par chaque étudiant: 
+Alex - Principalement html et bootstrap et AOS, un peu de css, js et jquery pour section accueil et form.
+Ismael - 
 
-Difficultés: - Installation de certaines librairies dont pour parallax et Slick
+Difficultés: - Installation de certaines librairies dont pour parallax et Slick, dont on y est pas arrivé. Les validations pour notre style de formulaire, incompatibilité avec bootstrap et jquery validator par exemple.
 
-Suggestions amélioration du projet:
+Suggestions amélioration du projet: documentation sur bootstrap, jquery et autres. Certaines documentations en ligne dont ceux de jquery sont plus ou moins bien décrites. Plus de tutoriel sur l'installation des librairies et comment les utilisés.
