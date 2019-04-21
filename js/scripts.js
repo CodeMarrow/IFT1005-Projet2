@@ -47,5 +47,25 @@ var updateDocumentTitle = function() {
     });
 
   };
+
+  $('#form1').validate({ // initialize the plugin
+    rules: {
+        prenom: {
+            required: true,
+            
+        },
+        nom: {
+            required: true,
+        }
+    },
+    Messages: {
+      prenom: "Veuillez entrer votre prénom",
+      nom: "Veuillez entrer votre nom"
+    }
+    submitHandler: function (form) { // for demo
+        alert('valid form submitted'); // for demo
+        return false; // for demo
+    }
+  });
   
 
