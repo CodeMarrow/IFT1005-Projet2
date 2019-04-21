@@ -286,58 +286,65 @@
 <section id = "contact">
         <hr class="my-4">
         <h1> Pour me contacter</h1>
-        <form name="form1" action="http://www.iro.umontreal.ca/~lapalme/ift1005/Exercices/9/echoValeurs.cgi" method="POST" enctype="multipart/form-data" id="form1"></form>
-        <div class="form-row">
-                <div class="col-md-6"> Prenom
-                  <input type="text" class="form-control" name="prenom" id="prenom"  placeholder="Prénom" minlength="2" required>
+    <form class="form1" action="http://www.iro.umontreal.ca/~lapalme/ift1005/Exercices/9/echoValeurs.cgi" method="POST" enctype="multipart/form-data" id="form1" novalidate>
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label for="validationCustom01">Prenom</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Prenom" value="Marc" required>
+                <div class="valid-feedback">
+                  Valide!
                 </div>
-                <div class="col-md-6"> Nom
-                  <input type="text" class="form-control" name="nom" id="nom" placeholder="Nom" minlength="2" required>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationCustom02">Nom</label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Nom" value="Desjardins" required>
+                <div class="valid-feedback">
+                  Valide!
                 </div>
-        </div>
-        <div class="form-row">
-                    <div class="form-group col-md-6">
-                    <label for="Addresse">Addresse</label>
-                    <input type="text" class="form-control" id="Addresse" placeholder="1234 dodo rue" required>
+              </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom03">Addresse</label>
+                <input type="text" class="form-control" id="validationCustom03" placeholder="Addresse" required>
+                <div class="invalid-feedback">
+                Veuillez entrer une addresse valide!
                 </div>
-                <div class="form-group col-md-6">
-                        <label for="Telephone">Telephone</label>
-                        <input type="text" class="form-control" id="Telephone" placeholder="YYYXXXXXXX (YYY = 514 ou 483 ou 450)" required>
-                      </div>
-        </div>
-                  <div class="form-row">
-                        <div class="form-group col-md-6">
-                          <label for="Ville">Ville</label>
-                          <input type="text" class="form-control" id="Ville" required>
-                        </div>
-                        <div class="form-group col-md-2">
-                          <label for="inputZip">Zip</label>
-                          <input type="text" class="form-control" id="Code Postal" required pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" placeholder="CLC LCL (C: chiffre; L: lettre)">
-                        </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom04">Ville</label>
+                <input type="text" class="form-control" id="validationCustom04" placeholder="Ville" required>
+                <div class="invalid-feedback">
+                Veuillez entrer une ville valide!
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom05">Code Postal</label>
+                <input type="text" class="form-control" id="validationCustom05" placeholder="Code Postal" required pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]">
+                <div class="invalid-feedback">
+                Veuillez entrer un code postal valide.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                    <label for="validationCustom06">Telephone</label>
+                    <input type="text" class="form-control" id="validationCustom06" placeholder=""YYYXXXXXXX (YYY = 514 ou 483 ou 450)"" required>
+                    <div class="invalid-feedback">
+                    Veuillez entrer un numero de telephone valide.
                     </div>
-        
-        <div class="form-row">
-                <div class="col-md-4 mb-3">
-                  <label for="message">Message:</label>
-                  <textarea name="message" rows="10" cols="30" class="form-control" id="message" required></textarea>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="col-md-4 mb-3">
-                  <input type="submit" value="Submit" class="btn bg-white text-dark" />
-                </div>
-              </div>
-              </form>
-              <hr class="my-4">
-    </section> 
-
+                  </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Envoyer</button>
+          </form>
+          <hr class="my-4">
+          </section>
 <!-- Closing : contact -->
 
 <!-- Footer -->
 
 <footer>
-<span>
-</span>
+    <span>
+        <p id="info"></p>
+
+    </span>
 </footer>
 
 <!-- Closing : Footer -->
