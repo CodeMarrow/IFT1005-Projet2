@@ -283,73 +283,53 @@
 
 <!-- Contact -->
 
- <section id = "contact">
- 
- Si un client veut contacter votre tante, il faut qu'il soumette son nom, son adresse, son code postal, sa ville, son numéro de téléphone et une description de ce qu'il aimerait acheter.
-
-Validité:
-
-Code postal: CLC LCL (C: chiffre; L: lettre).
-Téléphone: YYYXXXXXXX (YYY = 514 ou 483 ou 450).
-Tous les champs sont requis.
- 
- <h1>Get in touch</h1>
-        <hr>
-        <form name="Form1" action="http://www.iro.umontreal.ca/~lapalme/ift1005/Exercices/9/echoValeurs.cgi" method="POST" enctype="multipart/form-data">
-            <div class="first-line">
-                <div>
-                    <label> Your Name (required)<br>
-                        <span>
-                            <input type="text" name="your-name" value="" size="80" required>
-                        </span>
-                    </label>
+<section id = "contact">
+        <hr class="my-4">
+        <h1> Pour me contacter</h1>
+        <form name="form1" action="http://www.iro.umontreal.ca/~lapalme/ift1005/Exercices/9/echoValeurs.cgi" method="POST" enctype="multipart/form-data" id="form1"></form>
+        <div class="form-row">
+                <div class="col-md-6"> Prenom
+                  <input type="text" class="form-control" name="prenom" id="prenom"  placeholder="Prénom" minlength="2" required>
                 </div>
-                <div>
-                    <label> Your Email (required)<br>
-                        <span>
-                            <input type="email" name="your-email" value="" size="80" required>
-                        </span>
-                        </label>
+                <div class="col-md-6"> Nom
+                  <input type="text" class="form-control" name="nom" id="nom" placeholder="Nom" minlength="2" required>
                 </div>
-                <div>
-                    <label> Phone<br>
-                        <span>
-                            <input type="tel" pattern="(\+389)[\-]\d{3}[\-]\d{3}" name="your-phone" value="" size="80" required>
-                        </span>
-                    </label>
+        </div>
+        <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="Addresse">Addresse</label>
+                    <input type="text" class="form-control" id="Addresse" placeholder="1234 dodo rue" required>
                 </div>
-            </div>
-            <div class="second-line">
-                <div>
-                    <label> Pick your service<br>
-                        <span>
-                            <select name="pys" required>
-                                <option value="Consulting" selected>Consulting</option>
-                                <option value="Planning">Planning</option>
-                                <option value="Nutrition">Nutrition</option>
-                            </select>
-                        </span>
-                    </label>
+                <div class="form-group col-md-6">
+                        <label for="Telephone">Telephone</label>
+                        <input type="text" class="form-control" id="Telephone" placeholder="YYYXXXXXXX (YYY = 514 ou 483 ou 450)" required>
+                      </div>
+        </div>
+                  <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="Ville">Ville</label>
+                          <input type="text" class="form-control" id="Ville" required>
+                        </div>
+                        <div class="form-group col-md-2">
+                          <label for="inputZip">Zip</label>
+                          <input type="text" class="form-control" id="Code Postal" required pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" placeholder="CLC LCL (C: chiffre; L: lettre)">
+                        </div>
+                    </div>
+        
+        <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="message">Message:</label>
+                  <textarea name="message" rows="10" cols="30" class="form-control" id="message" required></textarea>
                 </div>
-                 <div>
-                    <label> Subject<br>
-                        <span>
-                            <input type="text" name="your-subject" value="" size="120">
-                        </span>
-                    </label>
+              </div>
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <input type="submit" value="Submit" class="btn bg-white text-dark" />
                 </div>
-            </div>
-            <div class="third_line">
-                <label>
-                    Your Message<br><span><textarea name="your-message" cols="120" rows="4"></textarea></span>
-                </label>
-            </div>
-            <p>
-                <button class="button button1" type="submit" value="submit" name="send">Send</button>
-            </p>
-        </form>   
+              </div>
+              </form>
+              <hr class="my-4">
     </section> 
-
 
 <!-- Closing : contact -->
 
