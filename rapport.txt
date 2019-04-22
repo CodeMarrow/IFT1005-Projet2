@@ -22,6 +22,9 @@ Difficultés: - Installation de certaines librairies dont pour parallax et Slick
 -coordination du travail sur git, mise en commun du travail
 -faire et imaginer le site sans "modele" 
 -parfois, pour appliquer des style il est plus simple d'utiliser css
+- JS/Sripts ne load pas sur l'hébergement webdepot
+
 
 Suggestions amélioration du projet: documentation sur bootstrap, jquery et autres. Certaines documentations en ligne dont ceux de jquery sont plus ou moins bien décrites. Plus de tutoriel sur l'installation des librairies et comment les utilisés.
-Importation des données ajax
+Importation des données ajax.
+- Un meilleur hébergement des sites.
