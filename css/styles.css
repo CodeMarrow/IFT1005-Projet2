@@ -78,7 +78,7 @@ body {
 /* Footer                                       */
 /*==============================================*/
 
-/** 
- * This section should contain at least the
- * following elements: p.
- */
+.info {
+	text-align: center;
+
+}
