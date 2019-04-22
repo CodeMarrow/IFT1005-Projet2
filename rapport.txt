@@ -14,7 +14,7 @@ Sites web inspiration:  - http://preview.themeforest.net/item/food-cook-multipur
                         - https://www.seriouseats.com/
 
 Description du travail par chaque étudiant: 
-Alex - HTML, CSS, JS pour header, accueil, petits faits, jumbotron, form et footer + animation AOS et parallax CSS.
+Alex - HTML, CSS, JS pour header, nav bar, accueil, petits faits, jumbotron, form et footer + animation AOS et parallax CSS.
 Ismael - svg, mise en forme des images
 
 Difficultés: - Installation de certaines librairies dont pour parallax et Slick, dont on y est pas arrivé. Les validations pour notre style de formulaire, incompatibilité avec bootstrap et jquery validator par exemple.
