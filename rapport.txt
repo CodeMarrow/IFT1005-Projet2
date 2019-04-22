@@ -15,8 +15,13 @@ Sites web inspiration:  - http://preview.themeforest.net/item/food-cook-multipur
 
 Description du travail par chaque étudiant: 
 Alex - Principalement html et bootstrap et AOS, un peu de css, js et jquery pour section accueil et form.
-Ismael - 
+Ismael - svg, mise en forme des images
 
 Difficultés: - Installation de certaines librairies dont pour parallax et Slick, dont on y est pas arrivé. Les validations pour notre style de formulaire, incompatibilité avec bootstrap et jquery validator par exemple.
+- importation des methodes ajax
+-coordination du travail sur git, mise en commun du travail
+-faire et imaginer le site sans "modele" 
+-parfois, pour appliquer des style il est plus simple d'utiliser css
 
 Suggestions amélioration du projet: documentation sur bootstrap, jquery et autres. Certaines documentations en ligne dont ceux de jquery sont plus ou moins bien décrites. Plus de tutoriel sur l'installation des librairies et comment les utilisés.
+Importation des données ajax
