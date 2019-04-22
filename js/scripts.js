@@ -68,6 +68,4 @@ var updateDocumentTitle = function() {
   var footerApply = function (){
     	var footer = data.email + "     " + data.lastName + " " + data.firstName;
   $( "#info" ).append(footer);
-
-  
-
+  };
